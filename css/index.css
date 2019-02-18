@@ -85,12 +85,27 @@ html {
       display: flex;
     
   }
+
+  @media(max-width: 800px) {
+    header.header-container {
+      flex-direction: column-reverse;
+      width: 100%;
+      align-items: center;
+    }
+}
   
   header nav {
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
   }
+
+  @media(max-width: 800px) {
+    header nav {
+      margin-top: 4.5%;
+      width: 90%
+    }
+}
   
   header nav a {
 	margin-right: 58px;
@@ -99,6 +114,12 @@ html {
 	text-decoration: none;
   }
   
+  @media(max-width: 800px) {
+    header nav a {
+      margin-right: 10%;
+    }
+}
+
   header nav a:hover {
 	text-decoration: underline;
   }
@@ -116,6 +137,13 @@ html {
     margin-left: 5px;
 
   }
+
+  @media(max-width: 800px) {
+    header .logo {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+}
   
   /* cta */
   /* cta parent container for flex styling */
