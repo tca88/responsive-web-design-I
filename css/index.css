@@ -443,6 +443,13 @@ html {
 	font-size: 14px;
   }
 
+  @media(max-width: 800px) {
+    footer {
+        width: 86%;
+        text-align:center;
+    }
+}
+
   @media(max-width: 500px) {
     footer {
         width: 52%;
