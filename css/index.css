@@ -63,8 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
 html {
 	box-sizing: border-box;
   }
@@ -73,6 +71,7 @@ html {
   }
 
   /* Main div container */
+
 
   .container {
 	width: 880px;
@@ -83,7 +82,8 @@ html {
   /* header */
   /* header parent container for flex styling */
   header.header-container {
-	  display: flex;
+      display: flex;
+    
   }
   
   header nav {
@@ -93,8 +93,8 @@ html {
   }
   
   header nav a {
-	margin-right: 65px;
-	font-size: 14px;
+	margin-right: 58px;
+	font-size: 16px;
 	color: gray;
 	text-decoration: none;
   }
@@ -112,7 +112,9 @@ html {
   }
   
   header .logo {
-	margin-top: 25px;
+    margin-top: 24px;
+    margin-left: 5px;
+
   }
   
   /* cta */
@@ -126,20 +128,25 @@ html {
   .cta .cta-text {
 	/* vertical-align: top;  -- removed to include justify-content: center under .cta-container 
 	class in order to center the image, text and button within that parent container*/
-	font-size: 77px;
+	font-size: 70px;
 	margin-top: 120px;
 	text-align: center;
 	padding: 0px 75px;
+  }
+
+  .cta .cta-text h1 {
+      margin-left: 35px;
   }
   
   .cta .cta-text button {
 	background: white;
 	vertical-align: top;
-	margin-top: 6px;
-	padding: 8px 44px;
+	margin-top: 15px;
+	padding: 6.5px 39px;
 	font-size: 17px;
 	border: 1px solid black;
-	cursor: pointer;
+    cursor: pointer;
+    margin-left: 40px;
   }
   
   .cta .cta-text button:hover {
